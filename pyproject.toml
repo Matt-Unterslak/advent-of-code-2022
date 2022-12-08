@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aoc_2022"
+version = "0.1.0"
+description = ""
+authors = ["MatthewUnterslak"]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+numpy = "^1.21.6"
+duckdb = "^0.6.0"
+anytree = "^2.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+coverage = "6.4.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
